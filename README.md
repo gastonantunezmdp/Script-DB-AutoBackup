@@ -2,7 +2,7 @@
 
 Un script de **Batch (.bat) para Windows** diseñado para automatizar el proceso de respaldo de las bases de datos de la aplicación **MultiSIBControl**. Realiza una copia de seguridad local, la comprime, la sube a la nube (Google Drive vía `rclone`) y envía notificaciones del estado del proceso a través de **Pushsafer**.
 
-## 🎯 Funcionalidades
+##  Funcionalidades
 
 - **Copia Inteligente**: Busca y copia solo los archivos de base de datos (`.db3`) desde el directorio de origen.
 - **Compresión**: Utiliza **7-Zip** para crear un archivo comprimido `.7z` optimizado, ahorrando espacio en la nube.
@@ -11,7 +11,7 @@ Un script de **Batch (.bat) para Windows** diseñado para automatizar el proceso
 - **Notificaciones en Tiempo Real**: Envía una notificación a tu dispositivo móvil (via Pushsafer) si el backup se completó con éxito o si falló en algún paso.
 - **Logging Detallado**: Genera un archivo de log por cada ejecución con fecha y hora, permitiendo un fácil diagnóstico de problemas.
 
-## ⚙️ Requisitos Previos
+##  Requisitos Previos
 
 Antes de ejecutar el script, asegúrate de tener instalado y configurado lo siguiente en el sistema Windows:
 
